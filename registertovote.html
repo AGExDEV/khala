@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Register To Vote</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/khala/khala/index.html">Khala Hastings</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:5500/khala/khala/registertovote.html">Register To Vote</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Endorsements <span class="sr-only">(current)</span></a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">District 7</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        
+        <script type="text/javascript"  src="https://register.rockthevote.com/assets/rtv-iframe.js"></script>
+            <script type="text/javascript">
+                RtvIframe.init({
+                partner: 38723
+                })
+            </script>
+        <script src="scripts.js"></script>   
+    </body>
+</html>
